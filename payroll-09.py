@@ -27,7 +27,8 @@ OUTPUTS:  Each column should represent extracted data from the provided source f
 """
 import os
 
-path = "C:\\Users\\ayoas_spsqm2u\\OneDrive\\Documents\\data1.txt"
+path = "data1.txt"
+#'path' must be in python directory folder to run above variable; else access location path directory & insert
 d1 = open(path, "r+")
 LN = "LAST-NAME"
 HW = "HOURLY-WAGE"
